@@ -1,0 +1,16 @@
+ 212  cd MyQuoteBook/
+  213  git status
+  214  git remote add origin master https://github.com/Siddharthalhat001/GitRevision.git
+  215  git remote add origin https://github.com/Siddharthalhat001/GitRevision.git
+  216  git commit -m "add" .
+  217  git add .
+  218  git commit -m "add" .
+  219  git push -u origin master
+  220  git branch another
+  221  git checkout another 
+  222  nano motivationalQoutes.txt
+  223  git add motivationalQoutes.txt 
+  224  git commit -m "Another Branch" motivationalQoutes.txt 
+  225  git push -u origin master
+  226  git push -u origin another
+  227  git checkout master
