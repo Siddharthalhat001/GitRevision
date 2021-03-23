@@ -1,0 +1,23 @@
+  150  mkdir MyQuoteBook
+  151  cd MyQuoteBook/
+  152  nano happiness.txt
+  153  git add happiness.txt 
+  154  git init
+  155  git add happiness.txt 
+  156  git commit -m "Commiting Happiness" happiness.txt 
+  157  nano humor.txt
+  158  git add humor.txt 
+  159  git commit -m " second commit" humor.txt 
+  160  git status
+  161  nano happiness.txt 
+  162  nano humor.txt 
+  163  git status
+  164  git add .
+  165  git commit -m "Third Commit" . 
+  166  git log
+  167  git revert 97dc854a873995827ddc597a41bf887838e7bf89
+  168  git revert -n HEAD
+  169  git revert 97dc854a873995827ddc597a41bf887838e7bf89
+  170  git reset 97dc854a873995827ddc597a41bf887838e7bf89 --hard
+  171  git log
+  172  history
